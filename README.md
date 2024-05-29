@@ -20,7 +20,7 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
 
 **Instructions:**
 
-Step 1: Preprocess the Data 
+**Step 1: Preprocess the Data **
 
 o	After uploading the starter file to the Google Colab, then using the information provided in the challenge files, and following the instructions:
 2.	Read in the charity_data.csv to a Pandas DataFrame, and be sure to identify the following in your dataset:
@@ -34,8 +34,8 @@ o	What variable(s) are the feature(s) for your model?
 8.	Split the preprocessed data into a features array, X, and a target array, y. Use these arrays and the train_test_split function to split the data into training and testing datasets.
 9.	Scale the training and testing features datasets by creating a StandardScaler instance, fitting it to the training data, then using the transform function.
 
-Step 2: Compile, Train, and Evaluate the Model
-
+**Step 2: Compile, Train, and Evaluate the Model
+**
 1.	Using our class materials of TensorFlow, we will design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the feature in the dataset.
 2.	Continue using the file in Google Colab in which you performed the preprocessing steps from Step 1.
 3.	Create a neural network model by assigning the number of input features and nodes for each layer using TensorFlow and Keras.
@@ -48,8 +48,8 @@ Step 2: Compile, Train, and Evaluate the Model
 10.	Evaluate the model using the test data to determine the loss and accuracy.
 11.	Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity.h5.
 
-Step 3: Optimize the Model
-
+**Step 3: Optimize the Model
+**
 Using your knowledge of TensorFlow, optimize your model to achieve a target predictive accuracy higher than 75%.
 Use any or all of the following methods to optimize your model:
 •	Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
